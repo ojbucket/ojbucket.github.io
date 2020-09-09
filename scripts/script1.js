@@ -2,12 +2,12 @@ let i=0;
 function menuHover(){
     var x=document.getElementById('bottom-nav-1');
     if(i%2==0){
-        x.style.display="grid";
+        x.style.left="0";
         i++;
     }
     else{
-        x.style.display="none";
+        x.style.left="-400px";
         i++;
     }
-
+    console.log(i);
 }

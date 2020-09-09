@@ -38,16 +38,19 @@ body{
 }
 
 #menu-icon-1{
-    
 }
 
 #bottom-nav-1{
-    display:none;
+    position: fixed;
+    display:flex;
     background-color: aquamarine;
     flex:100%;
-    flex-direction:row;
+    width:80%;
+    flex-direction:column;
     flex-wrap:nowrap;
     transition:1s ease;
+    left: -400px;
+    transition:0.4s ease;
 }
 
 #bottom-nav-1 a{
@@ -55,6 +58,9 @@ body{
     padding:5px;
     text-decoration:none;
     text-align:center;
+    padding:10px 100px;
+    font-style: bold;
+    
 }
 
 #bottom-nav-1 a:hover{
